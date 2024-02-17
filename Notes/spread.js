@@ -6,8 +6,13 @@ let arr2 = [...arr1]; // shallow copy -rwhile the top-level properties or elemen
 arr1.push(5);
 arr1[3][0]=6
 // console.log(arr1,arr2)
-console.log(arr1,arr2) // [ 1, 2, 3, [ 6, 4 ], 5 ] [ 1, 2, 3, [ 6, 4 ] ] arr2 is shallow copy of arr1 which nested array1 is changed then arr2 is changed
+console.log(arr1,arr2) // [ 1, 2, 3, [ 6, 4 ], 5 ] [ 1, 2, 3, [ 6, 4 ] ] arr2 is shallow copy of arr1 which nested array1
+//  is changed then arr2 is changed
 
+// let arr = [1,2,3, [4,5]];
+// let deep = JSON.parse(JSON.stringify(arr))
+// arr[3][0] = 6
+// console.log(arr,deep)
 
 let originalObject = {
     name: "John",
@@ -21,13 +26,14 @@ let originalObject = {
   // Create a deep copy using JSON methods
   let deepCopyObject = JSON.parse(JSON.stringify(originalObject));
   
-  // Modify the originalObject
+  // Modify the originalObject 
   originalObject.age = 35;
   originalObject.address.city = "Los Angeles";
   
   // Log both objects
   console.log(originalObject); // Output: { name: 'John', age: 35, address: { city: 'Los Angeles', country: 'USA' } }
-  console.log(deepCopyObject); // Output: { name: 'John', age: 30, address: { city: 'New York', country: 'USA' } } // deepcopy nested object is not changed
+  console.log(deepCopyObject); // Output: { name: 'John', age: 30, address: { city: 'New York', country: 'USA' } } 
+  // deepcopy nested object is not changed
   
 // Spread operataor
 // The spread operator (...) in JavaScript is a powerful feature introduced

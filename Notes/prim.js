@@ -17,7 +17,9 @@
 // Function: Represents a reusable block of code.
 // Date: Represents a specific point in time.
 
-// Data types in programming languages define the type of data that a variable can hold. They determine what operations can be performed on the data and how it is stored in memory. Different programming languages may have different sets of data types, but common data types include:
+// Data types in programming languages define the type of data that a variable can hold. They determine what operations
+//  can be performed on the data and how it is stored in memory. Different programming languages may have different sets 
+// of data types, but common data types include:
 
 // Integer: Represents whole numbers without fractional components.
 // Float/Double: Represents numbers with decimal points.

@@ -1,9 +1,10 @@
 // In JavaScript, this refers to the current execution context, or the context in which a function is called. The value of this is 
-// determined by how a function is called, rather than where it is defined. The behavior of this can vary depending on how the function is invoked:
+// determined by how a function is called, rather than where it is defined. The behavior of this can vary depending on how the
+//  function is invoked:
 
 
-// Global context: When this is used in the global scope (outside of any function), it refers to the global object, which is window in a web browser
-//  or global in Node.js.
+// Global context: When this is used in the global scope (outside of any function), it refers to the global object, which is window in 
+// a web browser or global in Node.js.
 //console.log(this === window); // true in a web browser
 
 // Function context: Inside a function, the value of this depends on how the function is called:

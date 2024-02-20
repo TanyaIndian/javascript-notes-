@@ -3,7 +3,8 @@
 // ex- array,string,map,set,argument array
 // meaning you can loop through their elements.
 
-// / n JavaScript, the Map object is a built-in data structure that allows you to store key-value pairs where both the keys and the values can be of any data type. Maps are similar to objects but provide some advantages, such as maintaining the insertion order of elements and 
+// / n JavaScript, the Map object is a built-in data structure that allows you to store key-value pairs where both the keys and the values
+//  can be of any data type. Maps are similar to objects but provide some advantages, such as maintaining the insertion order of elements and 
 // allowing any type of value as a key.
 
 let map = new Map();

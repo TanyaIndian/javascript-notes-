@@ -1,5 +1,6 @@
 // In JavaScript, a Set is a built-in object that allows you to store unique values of any type. 
-// Sets maintain the insertion order of elements, which means the order of elements in the Set corresponds to the order in which they were added.
+// Sets maintain the insertion order of elements, which means the order of elements in the Set corresponds 
+// to the order in which they were added.
 let set = new Set();
 set.add(1);
 set.add("Hello");
